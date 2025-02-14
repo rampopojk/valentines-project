@@ -166,3 +166,13 @@ canvas {
     width: 100%;
     height: auto;border-radius: 10%;
 	border: solid 12px #ef3030;}
+
+@media screen and (max-width:599px){
+	
+	body{display: block;padding: 15px }
+	.landing-page{height: 600px;}
+	.our-video{position: relative; right: unset; top: unset;width: 100%}
+	.love-title h2{font-size: 8.5rem}
+	.music-player iframe {width: 100% !important;margin: 0 auto}
+
+}
